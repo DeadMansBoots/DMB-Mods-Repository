@@ -1,0 +1,10 @@
+{
+	"updateType" : "minor",
+	"version" : "DMB 0.1.0",
+	"changeLog" : "The first Dead Man's Boots release.",
+	"downloadLinks" : {
+		"other" : "https://github.com/DeadMansBoots/DMB/releases/latest"
+	},
+	"history" : [
+	]
+}
