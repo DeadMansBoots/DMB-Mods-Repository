@@ -30,4 +30,6 @@ DMB's launcher reads the list as its one mod repository, and the notice as its u
 The launcher's rules for both files are in VCMI's source: `launcher/modManager/cmodlistview_moc.cpp`
 (the mod list) and `launcher/updatedialog_moc.cpp` (the update notice).
 
-The entries that come from VCMI's index are VCMI's, from [vcmi/vcmi-mods-repository](https://github.com/vcmi/vcmi-mods-repository).
+## License
+
+This repository's own files, the merge tool, the entry format and these docs, are under the [MIT license](LICENSE). The entries that come from VCMI's index are VCMI's, from [vcmi/vcmi-mods-repository](https://github.com/vcmi/vcmi-mods-repository), and every mod belongs to its authors.
