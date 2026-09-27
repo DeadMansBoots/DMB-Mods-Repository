@@ -1103,7 +1103,8 @@
 			"codeSha256": [
 				"9c609b94cdcc8ce52df4c9bb2ab1247dffdc4ec5ec09f7cd3fc9f5b43a1b67d4",
 				"2d1eaf24186b4bf18fd044906dfda41ed771ca9b59fd9dbf6707f5ca9f4ca6af"
-			]
+			],
+			"dmbEntry": true
 		},
 		"overall-ai-bonus": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/overall-ai-bonus/vcmi-1.7/overall-ai-bonus/mod.json",
