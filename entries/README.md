@@ -23,7 +23,11 @@ while.
 
     "codeSha256": "f374ad5e6824bcb9d573c8ae7970513ecd92ec278897f4ecf0285e6143605acd"
 
-A new release with changed code needs its new pin here before players can run it. A mod is submitted as a
+A new release with changed code needs its new pin here before players can run it.
+
+The list's builder marks every entry from this folder with `dmbEntry`, and DMB's launcher shows those
+mods in its own "DMB Mods" tab as well as in the full list. The mark is the builder's to set: an
+entry that carries it itself fails the check. A mod is submitted as a
 pull request that adds its file here; the catalog's check validates it, and merging the pull
 request accepts the mod. The same file under the id of one of VCMI's own mods replaces that mod's
 listing in DMB's catalog.

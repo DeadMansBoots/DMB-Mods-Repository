@@ -139,10 +139,12 @@ def main(argv):
     except (OSError, ValueError) as exc:
         print("VCMI's index could not be read (%s); the list is left as it was" % exc)
         return 1
-    merged = {k.lower(): {key: value for key, value in v.items() if key != "codeSha256"} if isinstance(v, dict) else v
-              for k, v in vcmi.items()}
+    # pins and DMB's own mark come only from DMB's entries, never through VCMI's index
+    merged = {k.lower(): {key: value for key, value in v.items() if key not in ("codeSha256", "dmbEntry")}
+              if isinstance(v, dict) else v for k, v in vcmi.items()}
     replaced = sorted(set(merged) & set(entries))
-    merged.update(entries)
+    # "dmbEntry" marks DMB's own entries, which DMB's launcher lists in its "DMB Mods" tab
+    merged.update({mod_id: dict(entry, dmbEntry=True) for mod_id, entry in entries.items()})
     text = json.dumps({"availableMods": dict(sorted(merged.items()))}, indent="\t", ensure_ascii=False) + "\n"
     old = open(OUT, encoding="utf-8").read() if os.path.exists(OUT) else ""
     print("%d mods: %d from VCMI's index, %d DMB entries (%d replacing VCMI's own)%s"
