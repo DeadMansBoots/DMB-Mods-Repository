@@ -11,7 +11,19 @@ its author, not stored here.
         "screenshots": [ "https://raw.githubusercontent.com/<author>/<mod>/main/screenshots/1.png" ]
     }
 
-`downloadSize` is in MB. `screenshots` and `descriptionURL` are optional. A mod is submitted as a
+`downloadSize` is in MB. `screenshots` and `descriptionURL` are optional.
+
+A mod that brings code needs one more key, `codeSha256`. That covers an AI plugin (its `ai`
+folder) and a map generator (its `generator` folder). DMB runs such code only when it matches the
+pin here, and anything that does not match stays unused, with the reason shown to the player.
+`python tools/addon_hash.py --zip <mod>.zip` prints the pin for your release zip. The check
+downloads the zip and computes the same thing, so a wrong pin fails the pull request. A mod with
+both folders lists both pins, as a list. So can a mod whose older release should keep working for a
+while.
+
+    "codeSha256": "f374ad5e6824bcb9d573c8ae7970513ecd92ec278897f4ecf0285e6143605acd"
+
+A new release with changed code needs its new pin here before players can run it. A mod is submitted as a
 pull request that adds its file here; the catalog's check validates it, and merging the pull
 request accepts the mod. The same file under the id of one of VCMI's own mods replaces that mod's
 listing in DMB's catalog.

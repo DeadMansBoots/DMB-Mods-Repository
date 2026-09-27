@@ -14,13 +14,68 @@ import json
 import os
 import re
 import sys
+import tempfile
 import urllib.request
+import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VCMI_INDEX = "https://raw.githubusercontent.com/vcmi/vcmi-mods-repository/develop/vcmi-1.7.json"
 OUT = os.path.join(ROOT, "dmb-1.7.json")
 REQUIRED = {"mod": str, "download": str, "downloadSize": (int, float)}
-OPTIONAL = {"screenshots": list, "descriptionURL": str, "githubStars": int}
+OPTIONAL = {"screenshots": list, "descriptionURL": str, "githubStars": int, "codeSha256": (str, list)}
+# A mod that brings code (an AI plugin's "ai" folder, a map generator's "generator" folder) runs in DMB
+# only when its entry here pins that folder: DMB's release\addon_hash.py prints the pin. Only DMB's own
+# entries may pin; a pin arriving from VCMI's index is dropped.
+PIN = re.compile(r"[0-9a-f]{64}")
+
+
+MAX_DOWNLOAD = 512 * 1024 * 1024
+
+
+def pin_problem(value):
+    pins = value if isinstance(value, list) else [value]
+    if not pins or not all(isinstance(p, str) and PIN.fullmatch(p) for p in pins):
+        return "codeSha256 must be 64 lower-case hex digits, or a list of them"
+    return None
+
+
+def verify_pins(entries, strict):
+    """Fetches each pinned entry's download and hashes it as the game will: every code folder in it
+    must be one of the entry's pins. A download that cannot be fetched fails only a strict (pull
+    request) check; a pin that does not match always fails."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from addon_hash import zip_pins
+    problems = []
+    for mod_id, entry in sorted(entries.items()):
+        if "codeSha256" not in entry:
+            continue
+        pins = entry["codeSha256"] if isinstance(entry["codeSha256"], list) else [entry["codeSha256"]]
+        try:
+            with tempfile.TemporaryDirectory() as tmp:
+                archive = os.path.join(tmp, "mod.zip")
+                size = 0
+                with urllib.request.urlopen(entry["download"], timeout=300) as r, open(archive, "wb") as fh:
+                    for chunk in iter(lambda: r.read(1 << 20), b""):
+                        size += len(chunk)
+                        if size > MAX_DOWNLOAD:
+                            raise ValueError("larger than %d MB" % (MAX_DOWNLOAD >> 20))
+                        fh.write(chunk)
+                found = zip_pins(archive)
+        except (OSError, ValueError, zipfile.BadZipFile) as exc:
+            message = "%s: its download could not be checked (%s)" % (mod_id, exc)
+            if strict:
+                problems.append(message)
+            else:
+                print("warning: " + message)
+            continue
+        if not found:
+            problems.append("%s: codeSha256 is given, but its download has no ai or generator folder beside a mod.json" % mod_id)
+        for folder, (value, count) in found.items():
+            if value in pins:
+                print("%s: %s pinned (%d files, %s)" % (mod_id, folder, count, value))
+            else:
+                problems.append("%s: %s in the download hashes to %s, which codeSha256 does not list" % (mod_id, folder, value))
+    return problems
 
 
 def load_vcmi(source):
@@ -62,6 +117,8 @@ def load_entries():
         for key in ("mod", "download"):
             if isinstance(entry.get(key), str) and not entry[key].startswith("https://"):
                 problems.append("%s: %s must be an https address" % (name, key))
+        if "codeSha256" in entry and pin_problem(entry["codeSha256"]):
+            problems.append("%s: %s" % (name, pin_problem(entry["codeSha256"])))
         entries[mod_id] = entry
     return entries, problems
 
@@ -72,6 +129,8 @@ def main(argv):
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args(argv)
     entries, problems = load_entries()
+    if not problems:
+        problems = verify_pins(entries, strict=args.check)
     if problems:
         print("entries with problems:\n  " + "\n  ".join(problems))
         return 1
@@ -80,7 +139,8 @@ def main(argv):
     except (OSError, ValueError) as exc:
         print("VCMI's index could not be read (%s); the list is left as it was" % exc)
         return 1
-    merged = {k.lower(): v for k, v in vcmi.items()}
+    merged = {k.lower(): {key: value for key, value in v.items() if key != "codeSha256"} if isinstance(v, dict) else v
+              for k, v in vcmi.items()}
     replaced = sorted(set(merged) & set(entries))
     merged.update(entries)
     text = json.dumps({"availableMods": dict(sorted(merged.items()))}, indent="\t", ensure_ascii=False) + "\n"
