@@ -10,7 +10,7 @@ Nothing here contains a mod's files. Each entry points at a mod that its author 
 2. Open a pull request that adds one file, `entries/<mod-id>.json`, in the format described in [entries/README.md](entries/README.md).
 3. The pull request's check tells you if the entry is incomplete. Merging it starts a rebuild of the list, and the mod appears in DMB's launcher when that finishes, a few minutes later.
 
-A mod that brings code, an AI player or a map generator, runs in DMB only when its entry here pins that code with `codeSha256`. `python tools/addon_hash.py --zip <mod>.zip` prints the pin, and the check downloads your zip to confirm it. How such a mod is built is in DMB's [addon guide](https://github.com/DeadMansBoots/Dead-Mans-Boots/blob/dmb/docs/modders/DMB_Addons.md).
+A mod that brings code runs in DMB only when its entry here pins that code with `codeSha256`. `python tools/addon_hash.py --zip <mod>.zip` prints the pin, and the check downloads your zip to confirm it. How such a mod is built is in DMB's [addon guide](https://github.com/DeadMansBoots/Dead-Mans-Boots/blob/dmb/docs/modders/DMB_Addons.md).
 
 Every mod comes in this way, including the ones DMB's own team makes.
 
