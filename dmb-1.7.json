@@ -79,7 +79,7 @@
 			"mod": "https://github.com/vcmi-mods/an-expansion/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/an-expansion/releases/download/1.7/an-expansion-vcmi-1.7.zip",
 			"downloadSize": 1.135,
-			"githubStars": 5,
+			"githubStars": 6,
 			"descriptionURL": "https://raw.githubusercontent.com/vcmi-mods/an-expansion/1.7/description.md"
 		},
 		"andruids-expansion": {
@@ -738,7 +738,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/horn-of-the-abyss/vcmi-1.7/screenshots/screen12.png"
 			],
 			"downloadSize": 421.939,
-			"githubStars": 96
+			"githubStars": 97
 		},
 		"hq-music": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/hq-music/main/mod.json",
@@ -1097,10 +1097,11 @@
 			"githubStars": 1
 		},
 		"omnimapgen": {
-			"mod": "https://raw.githubusercontent.com/Renegade1993/OmniMapGen/v0.2.2/mod/mod.json",
-			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.2.2/omnimapgen.zip",
-			"downloadSize": 34.65,
+			"mod": "https://raw.githubusercontent.com/Renegade1993/OmniMapGen/v0.2.3/mod/mod.json",
+			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.2.3/omnimapgen.zip",
+			"downloadSize": 34.66,
 			"codeSha256": [
+				"19fd490db13f03e454fdf555c0594e906fdda14f0108ae9b84ddce8441ff6441",
 				"cdbe80077b43b77bd250211835904ac9ca0b4765e2a786db4b87038cc4cba1ad",
 				"2d1eaf24186b4bf18fd044906dfda41ed771ca9b59fd9dbf6707f5ca9f4ca6af"
 			],
@@ -1530,7 +1531,7 @@
 			"mod": "https://github.com/vcmi-mods/wake-of-gods/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/wake-of-gods/releases/download/1.7/wake-of-gods-vcmi-1.7.zip",
 			"downloadSize": 99.152,
-			"githubStars": 38,
+			"githubStars": 39,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/wake-of-gods/vcmi-1.7/screenshots/screen01.png",
 				"https://raw.githubusercontent.com/vcmi-mods/wake-of-gods/vcmi-1.7/screenshots/screen02.png",
