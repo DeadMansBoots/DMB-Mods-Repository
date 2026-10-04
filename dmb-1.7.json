@@ -667,7 +667,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/HD-remastered/vcmi-1.7/screenshots/OH3.png"
 			],
 			"downloadSize": 126.437,
-			"githubStars": 9
+			"githubStars": 10
 		},
 		"heroes-iii-orchestra": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/heroes-iii-orchestra/vcmi-1.7/Heroes%20III%20Orchestra/mod.json",
@@ -685,7 +685,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/heroes-o-pedia/vcmi-1.7/screenshots/screen03.png"
 			],
 			"downloadSize": 3.618,
-			"githubStars": 8
+			"githubStars": 9
 		},
 		"heroes3-extended-soundtrack": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/heroes3-extended-soundtrack/main/mod.json",
@@ -743,8 +743,8 @@
 				"https://raw.githubusercontent.com/vcmi-mods/horn-of-the-abyss/vcmi-1.7/screenshots/screen11.png",
 				"https://raw.githubusercontent.com/vcmi-mods/horn-of-the-abyss/vcmi-1.7/screenshots/screen12.png"
 			],
-			"downloadSize": 421.992,
-			"githubStars": 98
+			"downloadSize": 421.994,
+			"githubStars": 99
 		},
 		"hq-music": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/hq-music/main/mod.json",
@@ -899,7 +899,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/mmai/vcmi-1.7-latest/screenshots/screenshot-01.png"
 			],
 			"downloadSize": 37.829,
-			"githubStars": 16
+			"githubStars": 17
 		},
 		"modder-tools-pack": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/modder-tools-pack/main/modder-tools-pack/mod.json",
