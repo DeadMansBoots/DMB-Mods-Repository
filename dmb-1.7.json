@@ -154,8 +154,8 @@
 			"githubStars": 1
 		},
 		"blood-expansion": {
-			"mod": "https://raw.githubusercontent.com/misiokles/blood-expansion/vcmi-1.7/mod.json",
-			"download": "https://github.com/misiokles/blood-expansion/archive/refs/heads/vcmi-1.7.zip",
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/blood-expansion/vcmi-1.7/mod.json",
+			"download": "https://github.com/vcmi-mods/blood-expansion/archive/refs/heads/vcmi-1.7.zip",
 			"downloadSize": 7.296,
 			"githubStars": 0
 		},
@@ -273,7 +273,7 @@
 		"cradle-town": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/cradle-town/vcmi-1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/cradle-town/archive/refs/heads/vcmi-1.7.zip",
-			"downloadSize": 30.668,
+			"downloadSize": 30.677,
 			"githubStars": 3,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/cradle-town/vcmi-1.7/screenshots/screen1.png",
@@ -1139,7 +1139,7 @@
 		"polish-translation": {
 			"mod": "https://github.com/vcmi-mods/polish-translation/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/polish-translation/releases/download/1.7/polish-translation-vcmi-1.7.zip",
-			"downloadSize": 182.056,
+			"downloadSize": 182.708,
 			"githubStars": 4
 		},
 		"portraits-packs": {
@@ -1226,7 +1226,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/romanian-translation/vcmi-1.7/screenshots/screen2.png",
 				"https://raw.githubusercontent.com/vcmi-mods/romanian-translation/vcmi-1.7/screenshots/screen3.png"
 			],
-			"downloadSize": 6.447,
+			"downloadSize": 6.538,
 			"githubStars": 1
 		},
 		"ruins-town": {
@@ -1275,6 +1275,12 @@
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/vcmi-shadowless-chinese-font/main/mod.json",
 			"download": "https://github.com/vcmi-mods/vcmi-shadowless-chinese-font/archive/refs/heads/main.zip",
 			"downloadSize": 12.971,
+			"githubStars": 0
+		},
+		"silver-spoon": {
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/silver-spoon/vcmi-1.7/mod.json",
+			"download": "https://github.com/vcmi-mods/silver-spoon/archive/refs/heads/vcmi-1.7.zip",
+			"downloadSize": 0.013,
 			"githubStars": 0
 		},
 		"small-era-mods": {
@@ -1507,7 +1513,7 @@
 		"vcmi-mod-ce-ukr": {
 			"mod": "https://github.com/vcmi-mods/vcmi-mod-ce-ukr/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/vcmi-mod-ce-ukr/releases/download/1.7/vcmi-mod-ce-ukr-vcmi-1.7.zip",
-			"downloadSize": 13.791,
+			"downloadSize": 17.295,
 			"githubStars": 4,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/vcmi-mod-ce-ukr/vcmi-1.7/screenshots/screen1.png",
