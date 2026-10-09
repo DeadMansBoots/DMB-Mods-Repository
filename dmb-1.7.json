@@ -55,7 +55,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/adventure-spells-pack/vcmi-1.7/screenshots/screen05.png"
 			],
 			"downloadSize": 5.813,
-			"githubStars": 3
+			"githubStars": 4
 		},
 		"ai testing maps": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/ai-testing-maps/master/mod.json",
@@ -101,7 +101,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/andruids-expansion/vcmi-1.7/screenshots/screen9.png"
 			],
 			"downloadSize": 7.436,
-			"githubStars": 7
+			"githubStars": 8
 		},
 		"andruids-spell-balance": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/andruids-spell-balance/vcmi-1.7/andruids-spell-balance/mod.json",
@@ -717,7 +717,7 @@
 			"mod": "https://github.com/vcmi-mods/hirki-plus-patch/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/hirki-plus-patch/releases/download/1.7/hirki-plus-patch-vcmi-1.7.zip",
 			"downloadSize": 59.653,
-			"githubStars": 2,
+			"githubStars": 3,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/hirki-plus-patch/vcmi-1.7/screenshots/01_ice_storm_battle.png",
 				"https://raw.githubusercontent.com/vcmi-mods/hirki-plus-patch/vcmi-1.7/screenshots/02_spell_book.png",
@@ -743,8 +743,8 @@
 				"https://raw.githubusercontent.com/vcmi-mods/horn-of-the-abyss/vcmi-1.7/screenshots/screen11.png",
 				"https://raw.githubusercontent.com/vcmi-mods/horn-of-the-abyss/vcmi-1.7/screenshots/screen12.png"
 			],
-			"downloadSize": 421.999,
-			"githubStars": 99
+			"downloadSize": 421.995,
+			"githubStars": 100
 		},
 		"hq-music": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/hq-music/main/mod.json",
@@ -1049,7 +1049,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/new-skills-pack/vcmi-1.7/screenshots/screen1.png"
 			],
 			"downloadSize": 2.516,
-			"githubStars": 5
+			"githubStars": 6
 		},
 		"new-summon-spells": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/new-summon-spells/vcmi-1.7/new-summon-spells/mod.json",
@@ -1257,7 +1257,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/mega-pack-rus/vcmi-1.7/screenshots/sc-6.png",
 				"https://raw.githubusercontent.com/vcmi-mods/mega-pack-rus/vcmi-1.7/screenshots/sc-7.png"
 			],
-			"downloadSize": 57.475,
+			"downloadSize": 57.492,
 			"githubStars": 4
 		},
 		"serbian-translation": {
@@ -1449,13 +1449,13 @@
 				"https://raw.githubusercontent.com/vcmi-mods/third-upgrades/vcmi-1.7/screenshots/screen06.png"
 			],
 			"downloadSize": 74.657,
-			"githubStars": 10
+			"githubStars": 11
 		},
 		"tides-of-war": {
 			"mod": "https://github.com/vcmi-mods/tides-of-war/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/tides-of-war/releases/download/1.7/tides-of-war-vcmi-1.7.zip",
 			"downloadSize": 28.711,
-			"githubStars": 22,
+			"githubStars": 23,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/tides-of-war/vcmi-1.7/screenshots/screen1.png"
 			]
@@ -1500,7 +1500,7 @@
 			"mod": "https://github.com/vcmi-mods/vcmi-extras/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/vcmi-extras/releases/download/1.7/vcmi-extras-vcmi-1.7.zip",
 			"downloadSize": 9.761,
-			"githubStars": 42,
+			"githubStars": 43,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/vcmi-extras/vcmi-1.7/screenshots/screen1.png",
 				"https://raw.githubusercontent.com/vcmi-mods/vcmi-extras/vcmi-1.7/screenshots/screen2.png",
@@ -1543,7 +1543,7 @@
 			"mod": "https://github.com/vcmi-mods/wake-of-gods/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/wake-of-gods/releases/download/1.7/wake-of-gods-vcmi-1.7.zip",
 			"downloadSize": 99.154,
-			"githubStars": 39,
+			"githubStars": 40,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/wake-of-gods/vcmi-1.7/screenshots/screen01.png",
 				"https://raw.githubusercontent.com/vcmi-mods/wake-of-gods/vcmi-1.7/screenshots/screen02.png",
