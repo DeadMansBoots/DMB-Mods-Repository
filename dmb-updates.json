@@ -1,16 +1,17 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.7",
-	"changeLog": "Straker Beta 7: bug reports send themselves (Help page, Report a bug; and after a crash the game offers to send one). The update window is restyled. Beta 6: in the multiplayer lobby a joined player follows the page the host is on. Beta 5: the launcher can update itself (Update now).",
+	"version": "DMB 0.1.0-beta.8",
+	"changeLog": "Straker Beta 8: the bug report asks what went wrong before it is sent, so reports arrive with your own words. Beta 7: bug reports send themselves (Help page, Report a bug; and after a crash the game offers to send one), and the update window is restyled. Beta 6: in the multiplayer lobby a joined player follows the page the host is on.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.7/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.7"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.8/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.8"
 	},
-	"windowsSha256": "12fc85853194169cbf6f2798aaec907cfef8af1acdb87ca42b3d96ca795cb4f3",
+	"windowsSha256": "6e9cd3d4a4738041612a0a34409994ca30cacf9dbac88c4b6566864ca1b1f909",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
 		"DMB 0.1.0-beta.5",
-		"DMB 0.1.0-beta.6"
+		"DMB 0.1.0-beta.6",
+		"DMB 0.1.0-beta.7"
 	]
 }
