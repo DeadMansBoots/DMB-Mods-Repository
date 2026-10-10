@@ -1,8 +1,10 @@
 {
-	"mod": "https://raw.githubusercontent.com/Renegade1993/OmniMapGen/v0.2.3/mod/mod.json",
-	"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.2.3/omnimapgen.zip",
-	"downloadSize": 34.66,
+	"mod": "https://raw.githubusercontent.com/Renegade1993/OmniMapGen/v0.3.0-beta.1/mod/mod.json",
+	"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.0-beta.1/omnimapgen.zip",
+	"downloadSize": 34.94,
+	"githubStars": 100,
 	"codeSha256": [
+		"78b5ef46fccc849f06f3a2df32af2bbf1a9f3a64a23a80851bc337f63dd8008e",
 		"19fd490db13f03e454fdf555c0594e906fdda14f0108ae9b84ddce8441ff6441",
 		"cdbe80077b43b77bd250211835904ac9ca0b4765e2a786db4b87038cc4cba1ad",
 		"2d1eaf24186b4bf18fd044906dfda41ed771ca9b59fd9dbf6707f5ca9f4ca6af"
