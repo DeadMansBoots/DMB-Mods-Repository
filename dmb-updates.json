@@ -1,14 +1,15 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.5",
-	"changeLog": "Straker Beta 5: the launcher can update itself. An Update now button downloads the installer, checks it, and installs it over your copy. Also in beta 3 and 4: no crash when a battle starts and a mod's battle picture is missing; the play log is written less often (a first suspect for choppy hero movement).",
+	"version": "DMB 0.1.0-beta.6",
+	"changeLog": "Straker Beta 6: one-click bug reports from the launcher's Help page (and after a crash); in the multiplayer lobby a joined player follows the page the host is on. Beta 5: the launcher can update itself (Update now). Earlier: no crash when a battle starts and a mod's battle picture is missing.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.5/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.5"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.6/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.6"
 	},
-	"windowsSha256": "23bb8c105df1aa9e2a0ffc56c4ed4de8b2d501d2f0c50f7feb672f9995523d6d",
+	"windowsSha256": "bd2674960482cfa774e7069b19f82516bf759f1ea582042a91b8a2206ed203c5",
 	"history": [
 		"DMB 0.1.0",
-		"DMB 0.1.0-beta.4"
+		"DMB 0.1.0-beta.4",
+		"DMB 0.1.0-beta.5"
 	]
 }
