@@ -1,12 +1,14 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.4",
-	"changeLog": "Straker Beta 4: the game no longer crashes when a battle starts and a mod's battle picture could not be loaded; the launcher's update check knows the beta number; the play log is written less often (a first suspect for choppy hero movement); a crash message names Dead Man's Boots and the crash file.",
+	"version": "DMB 0.1.0-beta.5",
+	"changeLog": "Straker Beta 5: the launcher can update itself. An Update now button downloads the installer, checks it, and installs it over your copy. Also in beta 3 and 4: no crash when a battle starts and a mod's battle picture is missing; the play log is written less often (a first suspect for choppy hero movement).",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.4/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.4"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.5/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.5"
 	},
+	"windowsSha256": "23bb8c105df1aa9e2a0ffc56c4ed4de8b2d501d2f0c50f7feb672f9995523d6d",
 	"history": [
-		"DMB 0.1.0"
+		"DMB 0.1.0",
+		"DMB 0.1.0-beta.4"
 	]
 }
