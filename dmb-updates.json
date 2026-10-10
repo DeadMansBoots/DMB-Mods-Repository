@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.10",
-	"changeLog": "Straker Beta 10: in a multiplayer lobby, Omni Map Gen shows the host's settings to the players who joined and follows the host from page to page. Everyone in a game needs the same beta. Beta 9: F12 in the game opens the bug report. Beta 8: the bug report asks what went wrong.",
+	"version": "DMB 0.1.0-beta.11",
+	"changeLog": "Straker Beta 11: when the game crashes it sends a report to the developers by itself, and every kind of crash is now logged with its place in the code. Beta 10: in a multiplayer lobby Omni Map Gen shows the host's settings. Beta 9: F12 in the game opens the bug report.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.10/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.10"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.11/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.11"
 	},
-	"windowsSha256": "20ca8d73d5eedd17e1ec63d2c1f33b43fb5c70aaf7b6753b6e77d0f4d659067f",
+	"windowsSha256": "87aa88147d36dd4a963c510ffbe94ad502186860e5bb469faef26975b9e22a0f",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -14,6 +14,7 @@
 		"DMB 0.1.0-beta.6",
 		"DMB 0.1.0-beta.7",
 		"DMB 0.1.0-beta.8",
-		"DMB 0.1.0-beta.9"
+		"DMB 0.1.0-beta.9",
+		"DMB 0.1.0-beta.10"
 	]
 }
