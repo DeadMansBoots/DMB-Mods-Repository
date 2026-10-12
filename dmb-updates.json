@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.11",
-	"changeLog": "Straker Beta 11: when the game crashes it sends a report to the developers by itself, and every kind of crash is now logged with its place in the code. Beta 10: in a multiplayer lobby Omni Map Gen shows the host's settings. Beta 9: F12 in the game opens the bug report.",
+	"version": "DMB 0.1.0-beta.12",
+	"changeLog": "Straker Beta 12: when the game crashes it sends the crash's place in the code and your logs to the project's crash service by itself (your Windows user name and computer name are removed first; one switch in Settings turns it off); closing the game window no longer asks; building pop-ups on the adventure map say what a building does, who guards it and what it gives; the Restoration of Erathia loading screen is fixed. Everyone who plays together must update to beta 12 first.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.11/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.11"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.12/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.12"
 	},
-	"windowsSha256": "87aa88147d36dd4a963c510ffbe94ad502186860e5bb469faef26975b9e22a0f",
+	"windowsSha256": "e59a669b5ad9f11ab89a890519283b353a412b3170f1817e9f9d9cb8fa1312da",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -15,6 +15,8 @@
 		"DMB 0.1.0-beta.7",
 		"DMB 0.1.0-beta.8",
 		"DMB 0.1.0-beta.9",
-		"DMB 0.1.0-beta.10"
-	]
+		"DMB 0.1.0-beta.10",
+		"DMB 0.1.0-beta.11"
+	],
+	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
