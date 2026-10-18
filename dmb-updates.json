@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.13",
-	"changeLog": "Straker Beta 13: a hero you pick in the lobby is kept when the generated map already holds that hero as a prisoner; guests see the random map mode's name; the warning for a player with no town no longer freezes the screen's turn timer while it is open; building pop-ups name what a prize holds (a war machine, a treasure artifact) and state a price once; the crash window looks like the launcher; a computer player's battle moves on after two refused spells (a fallback: the cause is still being looked for). Everyone who plays together must update to beta 13 first.",
+	"version": "DMB 0.1.0-beta.14",
+	"changeLog": "Straker Beta 14 puts back what beta 13 had changed in the base game: the turn window and black screen between players, the turn timer pause while a player with no town reads the warning, the locked garrison check, the installer's file association choices, the game's own loading screen as the default, and crash reports that are off until you say yes (the launcher asks once). A Pandora's Box that stays until taken no longer says it can be used again and again.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.13/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.13"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.14/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.14"
 	},
-	"windowsSha256": "3bad13119c5a7096141e22cc6baf11af6853c5b84d2d82c03e92fb801f80bbc3",
+	"windowsSha256": "364c83406efb6e425db117c2a0f9c43c2e74a16a7abd8644fe651049fc8eab51",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -17,7 +17,8 @@
 		"DMB 0.1.0-beta.9",
 		"DMB 0.1.0-beta.10",
 		"DMB 0.1.0-beta.11",
-		"DMB 0.1.0-beta.12"
+		"DMB 0.1.0-beta.12",
+		"DMB 0.1.0-beta.13"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
