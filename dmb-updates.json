@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.14",
-	"changeLog": "Straker Beta 14 puts back what beta 13 had changed in the base game: the turn window and black screen between players, the turn timer pause while a player with no town reads the warning, the locked garrison check, the installer's file association choices, the game's own loading screen as the default, and crash reports that are off until you say yes (the launcher asks once). A Pandora's Box that stays until taken no longer says it can be used again and again.",
+	"version": "DMB 0.1.0-beta.15",
+	"changeLog": "Straker Beta 15 adds a turn progress bar for each human player: it fills in your colour as you act during your turn and starts again each turn. The map generator and AI plugins you add yourself now ask before they run and remember your answer, instead of being refused. Settings pages no longer clip their rows, and the crash report question is only counted once you have answered it.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.14/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.14"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.15/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.15"
 	},
-	"windowsSha256": "364c83406efb6e425db117c2a0f9c43c2e74a16a7abd8644fe651049fc8eab51",
+	"windowsSha256": "c797adc36c48b7e528aeb9ef85724b2aadbd8e3f869ae60cea6f564afd508593",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -18,7 +18,8 @@
 		"DMB 0.1.0-beta.10",
 		"DMB 0.1.0-beta.11",
 		"DMB 0.1.0-beta.12",
-		"DMB 0.1.0-beta.13"
+		"DMB 0.1.0-beta.13",
+		"DMB 0.1.0-beta.14"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
