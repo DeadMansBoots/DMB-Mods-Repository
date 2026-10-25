@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.15",
-	"changeLog": "Straker Beta 15 adds a turn progress bar for each human player: it fills in your colour as you act during your turn and starts again each turn. The map generator and AI plugins you add yourself now ask before they run and remember your answer, instead of being refused. Settings pages no longer clip their rows, and the crash report question is only counted once you have answered it.",
+	"version": "DMB 0.1.0-beta.16",
+	"changeLog": "Straker Beta 16: when your hero meets an ally's hero, both of you get the trade window and see every move at once. The turn bars show your allies, map objects say what they do on right-click, and a map whose players are all allies no longer starts.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.15/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.15"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.16/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.16"
 	},
-	"windowsSha256": "c797adc36c48b7e528aeb9ef85724b2aadbd8e3f869ae60cea6f564afd508593",
+	"windowsSha256": "f79af69a116008c8c77b43afdd00ab506d2e5e1270b26986c74eab24b3cf3e89",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -19,7 +19,8 @@
 		"DMB 0.1.0-beta.11",
 		"DMB 0.1.0-beta.12",
 		"DMB 0.1.0-beta.13",
-		"DMB 0.1.0-beta.14"
+		"DMB 0.1.0-beta.14",
+		"DMB 0.1.0-beta.15"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
