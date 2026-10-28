@@ -624,8 +624,12 @@
 		"nevermore-town": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/nevermore-town/vcmi-1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/nevermore-town/archive/refs/heads/vcmi-1.7.zip",
-			"downloadSize": 25.334,
-			"githubStars": 1
+			"downloadSize": 26.721,
+			"githubStars": 1,
+			"screenshots": [
+				"https://raw.githubusercontent.com/vcmi-mods/nevermore-town/vcmi-1.7/screenshots/screen1.png",
+				"https://raw.githubusercontent.com/vcmi-mods/nevermore-town/vcmi-1.7/screenshots/screen2.png"
+			]
 		},
 		"new-interface-mod": {
 			"mod": "https://github.com/vcmi-mods/new-interface-mod/releases/download/1.7/mod.json",
