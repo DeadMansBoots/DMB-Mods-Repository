@@ -1,7 +1,7 @@
 {
 	"updateType": "minor",
 	"version": "DMB 0.1.0-beta.17",
-	"changeLog": "Straker Beta 17: a player who dropped out can come back to the same seat and is asked first, and an AI plays the empty seat meanwhile so the others are not stuck. The turn bar counts every hero and every town that can build and reads 100 percent only at End Turn. Clearer lobby and plague-week messages.",
+	"changeLog": "Straker Beta 17: a player who dropped out can come back to the same seat and is asked first. While the seat is empty an AI takes it and ends its turns. The turn bar counts every hero and every town that can build and reads 100 percent only at End Turn. Clearer lobby and plague-week messages.",
 	"downloadLinks": {
 		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.17/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
 		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.17"
