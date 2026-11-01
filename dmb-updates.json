@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.16",
-	"changeLog": "Straker Beta 16: when your hero meets an ally's hero, both of you get the trade window and see every move at once. The turn bars show your allies, map objects say what they do on right-click, and a map whose players are all allies no longer starts.",
+	"version": "DMB 0.1.0-beta.17",
+	"changeLog": "Straker Beta 17: a player who dropped out can come back to the same seat and is asked first, and an AI plays the empty seat meanwhile so the others are not stuck. The turn bar counts every hero and every town that can build and reads 100 percent only at End Turn. Clearer lobby and plague-week messages.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.16/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.16"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.17/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.17"
 	},
-	"windowsSha256": "f79af69a116008c8c77b43afdd00ab506d2e5e1270b26986c74eab24b3cf3e89",
+	"windowsSha256": "3cd581134a9dbd0f118595d4df1dc80f9096231abcc89a970bbebc1f0f11f08d",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -20,7 +20,8 @@
 		"DMB 0.1.0-beta.12",
 		"DMB 0.1.0-beta.13",
 		"DMB 0.1.0-beta.14",
-		"DMB 0.1.0-beta.15"
+		"DMB 0.1.0-beta.15",
+		"DMB 0.1.0-beta.16"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
