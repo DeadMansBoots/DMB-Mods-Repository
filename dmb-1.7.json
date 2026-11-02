@@ -170,7 +170,7 @@
 		"cradle-town": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/cradle-town/vcmi-1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/cradle-town/archive/refs/heads/vcmi-1.7.zip",
-			"downloadSize": 30.677,
+			"downloadSize": 30.685,
 			"githubStars": 3,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/cradle-town/vcmi-1.7/screenshots/screen1.png",
@@ -467,7 +467,7 @@
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/hq-music/main/mod.json",
 			"download": "https://github.com/vcmi-mods/hq-music/archive/refs/heads/main.zip",
 			"downloadSize": 227.359,
-			"githubStars": 5
+			"githubStars": 6
 		},
 		"hungarian-translation": {
 			"mod": "https://github.com/vcmi-mods/hungarian-translation/releases/download/1.7/mod.json",
@@ -624,7 +624,7 @@
 		"nevermore-town": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/nevermore-town/vcmi-1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/nevermore-town/archive/refs/heads/vcmi-1.7.zip",
-			"downloadSize": 26.721,
+			"downloadSize": 26.728,
 			"githubStars": 1,
 			"screenshots": [
 				"https://raw.githubusercontent.com/vcmi-mods/nevermore-town/vcmi-1.7/screenshots/screen1.png",
@@ -867,7 +867,7 @@
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/tavern-invite/vcmi-1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/tavern-invite/archive/refs/heads/vcmi-1.7.zip",
 			"downloadSize": 0.001,
-			"githubStars": 2
+			"githubStars": 3
 		},
 		"tears-of-ashan": {
 			"mod": "https://github.com/vcmi-mods/tears-of-ashan/releases/download/1.7/mod.json",
