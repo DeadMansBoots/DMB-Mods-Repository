@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.17",
-	"changeLog": "Straker Beta 17: a player who dropped out can come back to the same seat and is asked first. While the seat is empty an AI takes it and ends its turns. The turn bar counts every hero and every town that can build and reads 100 percent only at End Turn. Clearer lobby and plague-week messages.",
+	"version": "DMB 0.1.0-beta.18",
+	"changeLog": "Straker Beta 18: a host can let a new player into a running game (hot join, off by default, set in settings.json). The chat is saved with the game. The map template window shows a picture of the layout. Everyone who plays together must update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.17/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.17"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.18/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.18"
 	},
-	"windowsSha256": "3cd581134a9dbd0f118595d4df1dc80f9096231abcc89a970bbebc1f0f11f08d",
+	"windowsSha256": "e059c56d533a01fb453a7e45ccad31fe166d19097d7670cc1a10a1ac867f8097",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -21,7 +21,8 @@
 		"DMB 0.1.0-beta.13",
 		"DMB 0.1.0-beta.14",
 		"DMB 0.1.0-beta.15",
-		"DMB 0.1.0-beta.16"
+		"DMB 0.1.0-beta.16",
+		"DMB 0.1.0-beta.17"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
