@@ -577,9 +577,9 @@
 			"githubStars": 18
 		},
 		"modder-tools-pack": {
-			"mod": "https://raw.githubusercontent.com/vcmi-mods/modder-tools-pack/main/modder-tools-pack/mod.json",
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/modder-tools-pack/main/mod.json",
 			"download": "https://github.com/vcmi-mods/modder-tools-pack/archive/refs/heads/main.zip",
-			"downloadSize": 85.062,
+			"downloadSize": 84.999,
 			"githubStars": 6
 		},
 		"moon-artifacts": {
@@ -607,7 +607,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/morns-battlefields/vcmi-1.7/screenshots/01.png"
 			],
 			"downloadSize": 23.788,
-			"githubStars": 1
+			"githubStars": 2
 		},
 		"movement-arrows": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/movement-arrows/main/mod.json",
