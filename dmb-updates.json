@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.18",
-	"changeLog": "Straker Beta 18: a host can let a new player into a running game (hot join, off by default, set in settings.json). The chat is saved with the game. The map template window shows a picture of the layout. Everyone who plays together must update.",
+	"version": "DMB 0.1.0-beta.19",
+	"changeLog": "Straker Beta 19: a player whose connection drops now comes back to the running game on their own. The host can allow or refuse new players with a join switch. The chat has a console window with channels, colours, text size and fade time. Grail Off, a water layout list, typed quantities in trades between players, and dwellings that are guarded at once after a capture. Everyone who plays together must update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.18/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.18"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19"
 	},
-	"windowsSha256": "e059c56d533a01fb453a7e45ccad31fe166d19097d7670cc1a10a1ac867f8097",
+	"windowsSha256": "15cdbe9115da1fbfedce259952e9447bb186206d4f7d61a57e86b14583da4d68",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -22,7 +22,8 @@
 		"DMB 0.1.0-beta.14",
 		"DMB 0.1.0-beta.15",
 		"DMB 0.1.0-beta.16",
-		"DMB 0.1.0-beta.17"
+		"DMB 0.1.0-beta.17",
+		"DMB 0.1.0-beta.18"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
