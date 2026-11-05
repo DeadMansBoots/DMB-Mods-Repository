@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19",
-	"changeLog": "Straker Beta 19: a player whose connection drops now comes back to the running game on their own. The host can allow or refuse new players with a join switch. The chat has a console window with channels, colours, text size and fade time. Grail Off, a water layout list, typed quantities in trades between players, and dwellings that are guarded at once after a capture. Everyone who plays together must update.",
+	"version": "DMB 0.1.0-beta.19.1",
+	"changeLog": "Straker Beta 19.1: the chat is a small box in the bottom left of the map that opens into a chat panel nestled in the corner, framed in your player colour, with a red unread badge. The chat also works in battle, comes back when you load a saved game, and has more options: text size, a glass or solid panel, a sound for new lines, and hiding the game's own lines. Players who play together should all update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.1/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.1"
 	},
-	"windowsSha256": "15cdbe9115da1fbfedce259952e9447bb186206d4f7d61a57e86b14583da4d68",
+	"windowsSha256": "788cb0c611083dcc96a86eadb86bd728e83fc68190a1cf600a1c3d7fdc5444a6",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -23,7 +23,8 @@
 		"DMB 0.1.0-beta.15",
 		"DMB 0.1.0-beta.16",
 		"DMB 0.1.0-beta.17",
-		"DMB 0.1.0-beta.18"
+		"DMB 0.1.0-beta.18",
+		"DMB 0.1.0-beta.19"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
