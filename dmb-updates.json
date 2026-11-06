@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.1",
-	"changeLog": "Straker Beta 19.1: the chat is a small box in the bottom left of the map that opens into a chat panel nestled in the corner, framed in your player colour, with a red unread badge. The chat also works in battle, comes back when you load a saved game, and has more options: text size, a glass or solid panel, a sound for new lines, and hiding the game's own lines. Players who play together should all update.",
+	"version": "DMB 0.1.0-beta.19.2",
+	"changeLog": "Straker Beta 19.2: the chat closes by itself after you send a message, and Escape closes it. The chat panel's left edge now lines up with the left edge of the map. When another player joins the lobby, the map or random map template the host picked stays as it is. A player who joins a lobby now sees their own list of scenarios, with the host's map highlighted when they have it. A player whose connection drops can come back to their own seat, as long as the host is on this version too; the host's checkbox for joining after the start is now only for new players. The host's switch for letting new players into a running game is now visible in System Options, on the General page. Players who play together should all update to this version.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.1/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.1"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.2/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.2"
 	},
-	"windowsSha256": "788cb0c611083dcc96a86eadb86bd728e83fc68190a1cf600a1c3d7fdc5444a6",
+	"windowsSha256": "9ed958fc2dfd0aa22433c37ca51bec869f8dbede946ab2476205ce7c7c2bac9d",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -24,7 +24,8 @@
 		"DMB 0.1.0-beta.16",
 		"DMB 0.1.0-beta.17",
 		"DMB 0.1.0-beta.18",
-		"DMB 0.1.0-beta.19"
+		"DMB 0.1.0-beta.19",
+		"DMB 0.1.0-beta.19.1"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
