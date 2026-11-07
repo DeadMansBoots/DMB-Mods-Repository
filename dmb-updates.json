@@ -1,7 +1,7 @@
 {
 	"updateType": "minor",
 	"version": "DMB 0.1.0-beta.19.2",
-	"changeLog": "Straker Beta 19.2: the chat closes by itself after you send a message, and Escape closes it. The chat panel's left edge now lines up with the left edge of the map. When another player joins the lobby, the map or random map template the host picked stays as it is. A player who joins a lobby now sees their own list of scenarios, with the host's map highlighted when they have it. A player whose connection drops can come back to their own seat, as long as the host is on this version too; the host's checkbox for joining after the start is now only for new players. The host's switch for letting new players into a running game is now visible in System Options, on the General page. Players who play together should all update to this version.",
+	"changeLog": "New in this version: chat closes by itself after you send, the chat panel lines up with the map, the lobby keeps the host's map, joining players see their own scenario list, a player whose connection drops can come back to their seat, and the host's switch for letting players into a running game is in System Options. Known problems and what is still being built are listed on the release page.",
 	"downloadLinks": {
 		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.2/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
 		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.2"
