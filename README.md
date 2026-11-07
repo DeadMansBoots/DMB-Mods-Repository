@@ -1,8 +1,8 @@
 # DMB-Mods-Repository
 
-The mod list of [Dead Man's Boots](https://github.com/DeadMansBoots/Dead-Mans-Boots), a Heroes of Might and Magic III engine built on VCMI. DMB's launcher reads this list for its mod manager, so every mod here installs from the launcher. It holds VCMI's own community mods, refreshed every day, plus the mods made for DMB.
+This is the list of mods that [Dead Man's Boots (DMB)](https://github.com/DeadMansBoots/Dead-Mans-Boots) offers in its launcher. Every mod on it installs and updates from the launcher. The list is the community's Heroes III mods, brought up to date every day, plus the mods made for DMB. The mods themselves stay with their authors; each entry here points to where its author publishes it.
 
-Nothing here contains a mod's files. Each entry points at a mod that its author publishes in their own repository, wherever they keep it.
+Anyone can add a mod by pull request, and a mod that carries program code is listed with a fingerprint of that code, so DMB runs that exact code and no other.
 
 ## Adding a mod
 
