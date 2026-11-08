@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.2",
-	"changeLog": "New in this version: chat closes by itself after you send, the chat panel lines up with the map, the lobby keeps the host's map, joining players see their own scenario list, a player whose connection drops can come back to their seat, and the host's switch for letting players into a running game is in System Options. Known problems and what is still being built are listed on the release page.",
+	"version": "DMB 0.1.0-beta.19.3",
+	"changeLog": "New in this version: the launcher no longer replaces a working mod with a version this game cannot run (it keeps the one you have and says why), Tides of War is offered at the version that works, and joining a game whose mods differ from yours now says which mod instead of closing the game.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.2/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.2"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.3/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.3"
 	},
-	"windowsSha256": "9ed958fc2dfd0aa22433c37ca51bec869f8dbede946ab2476205ce7c7c2bac9d",
+	"windowsSha256": "a7af34b478a6784a0a86017b6b71fe716af4e516c43c14d20f145721f181c58b",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -25,7 +25,8 @@
 		"DMB 0.1.0-beta.17",
 		"DMB 0.1.0-beta.18",
 		"DMB 0.1.0-beta.19",
-		"DMB 0.1.0-beta.19.1"
+		"DMB 0.1.0-beta.19.1",
+		"DMB 0.1.0-beta.19.2"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
