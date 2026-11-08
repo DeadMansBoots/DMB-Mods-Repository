@@ -1,6 +1,6 @@
 # DMB-Mods-Repository
 
-This is the list of mods that [Dead Man's Boots (DMB)](https://github.com/DeadMansBoots/Dead-Mans-Boots) offers in its launcher. Every mod on it installs and updates from the launcher. The list is the community's Heroes III mods, brought up to date every day, plus the mods made for DMB. The mods themselves stay with their authors; each entry here points to where its author publishes it.
+This is the list of mods that [Dead Man's Boots (DMB)](https://github.com/DeadMansBoots/Dead-Mans-Boots) offers in its launcher. Every mod on it installs and updates from the launcher. The list is the community's Heroes III mods, brought up to date every two hours, plus the mods made for DMB. A mod whose newest version needs a newer game engine than DMB runs on is not offered: the list keeps the last copy that runs, and an issue here says which mod and why. The mods themselves stay with their authors; each entry here points to where its author publishes it.
 
 Anyone can add a mod by pull request, and a mod that carries program code is listed with a fingerprint of that code, so DMB runs that exact code and no other.
 
@@ -21,7 +21,7 @@ Every mod comes in this way, including the ones DMB's own team makes.
 | `dmb-1.7.json` | The mod list the launcher shows: VCMI's official index merged with DMB's entries. Generated; do not edit by hand. VCMI 1.7's format: `availableMods` maps each mod's id to its `mod` (the URL of its mod.json), `download` (the URL of its zip), `downloadSize` (in megabytes) and `screenshots`, plus an optional `descriptionURL`. |
 | `entries/` | DMB's own entries, one file per accepted mod (see `entries/README.md`). A mod is submitted as a pull request adding its file; merging it is the acceptance. |
 | `tools/build_catalog.py` | The merge. When an id is in both, DMB's entry wins. If VCMI's index cannot be read, the last good list stays. |
-| `.github/workflows/build-catalog.yml` | Runs the merge every day and whenever an entry changes, and commits the list only when it changed; checks every pull request's entries. Nobody curates VCMI's mods by hand. |
+| `.github/workflows/build-catalog.yml` | Runs the merge every two hours and whenever an entry changes, checks every mod's newest mod.json against the engine DMB runs on (the engine gate, in `tools/build_catalog.py`), opens an issue for each mod the gate held back, and commits the list only when it changed; checks every pull request's entries. Nobody curates VCMI's mods by hand. |
 | `dmb-updates.json` | The launcher's update notice. `version` is the newest DMB release, `updateType` is minor, major or critical (the launcher colours it gray, orange or red), `changeLog` is shown as text, and `downloadLinks` gives the download page (`other`, or `windows`, `macos`, `linux`, `android` or `ios` for one platform). The launcher shows it only to builds whose own version is listed in `history`, so a new release adds the previous versions there. |
 
 DMB's launcher reads the list as its one mod repository, and the notice as its update check:

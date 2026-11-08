@@ -1,11 +1,12 @@
-# Keeps dmb-1.7.json, the launcher's mod list, current without anyone curating it by hand: every day,
-# and whenever an entry changes, VCMI's official index and DMB's entries are merged again. A pull
+# Keeps dmb-1.7.json, the launcher's mod list, current without anyone curating it by hand: every two hours,
+# and whenever an entry changes, VCMI's official index and DMB's entries are merged again, and every mod's
+# newest mod.json is checked against the engine DMB runs on (a mod that needs a newer engine is not offered). A pull
 # request that adds or changes an entry is checked the same way before it can be merged.
 name: Build the catalog
 
 on:
   schedule:
-    - cron: "17 6 * * *"
+    - cron: "17 */2 * * *"
   push:
     branches: [main]
     paths: ["entries/**", "tools/**", ".github/workflows/build-catalog.yml"]
@@ -15,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   build:
@@ -28,7 +30,16 @@ jobs:
 
       - name: Merge VCMI's index with DMB's entries
         if: github.event_name != 'pull_request'
-        run: python3 tools/build_catalog.py
+        run: python3 tools/build_catalog.py --gate-report "$RUNNER_TEMP/gate-report.json"
+
+      - name: Open an issue for each mod the engine gate held back
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f "$RUNNER_TEMP/gate-report.json" ]; then
+            python3 tools/open_gate_issues.py "$RUNNER_TEMP/gate-report.json"
+          fi
 
       - name: Commit the list if it changed
         if: github.event_name != 'pull_request'

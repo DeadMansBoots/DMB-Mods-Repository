@@ -1,5 +1,6 @@
 {
 	"mod": "https://github.com/DeadMansBoots/DMB-Mods-Repository/releases/download/tides-of-war-1.0.49/mod.json",
 	"download": "https://github.com/DeadMansBoots/DMB-Mods-Repository/releases/download/tides-of-war-1.0.49/tides-of-war-1.0.49-vcmi-1.7.zip",
-	"downloadSize": 28.36
+	"downloadSize": 28.36,
+	"pinned": "This version of DMB runs on VCMI 1.7.5. Tides of War 1.0.50 needs a newer game engine than that, so the list offers 1.0.49, the last version that runs here. Let go by itself when the list's own entry runs on DMB's engine again."
 }

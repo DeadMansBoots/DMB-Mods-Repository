@@ -35,3 +35,7 @@ listing in DMB's catalog.
 Every mod comes in this way, including the ones DMB's own team makes: its own repository,
 wherever its author wants to host it (a personal account is fine; it does not belong under DMB's
 organization), and one entry here by pull request.
+
+A mod DMB keeps at an older version, because its author's newest build needs a newer game engine than DMB runs on, has a `pinned` key: one sentence saying why. Its `mod` and `download`
+point at a release of this repository holding that older build, unchanged. The builder does not mark such an entry as DMB's own mod, and lets the pin go by itself once the author's
+own entry runs on DMB's engine again. See `entries/tides-of-war.json`.
