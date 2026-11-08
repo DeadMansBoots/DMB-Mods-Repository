@@ -49,7 +49,13 @@ def main(argv):
     if not report:
         print("the engine gate held nothing back")
         return 0
-    open_titles = {issue["title"] for issue in call("/repos/%s/issues?state=open&per_page=100" % repo, token) if "pull_request" not in issue}
+    # a title that exists in ANY state is not opened again: an issue closed on purpose ("we decided to stay") must not come back every two hours
+    open_titles = set()
+    for page in range(1, 11):
+        issues = call("/repos/%s/issues?state=all&per_page=100&page=%d" % (repo, page), token)
+        open_titles.update(issue["title"] for issue in issues if "pull_request" not in issue)
+        if len(issues) < 100:
+            break
     for item in report:
         title = title_of(item)
         if title in open_titles:

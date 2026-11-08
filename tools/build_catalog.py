@@ -194,7 +194,13 @@ def apply_gate(merged, previous, engine, fetch, workers=12):
     result, report = dict(merged), []
     for mod_id in ids:
         state, version, low, high = verdicts[mod_id]
-        if state in ("ok", "unknown"):
+        if state == "unknown":
+            # nothing is known about this version this time (a failed fetch): when the previous list had the mod at another address, that one stays rather than a version that may be the held-back one
+            before = previous.get(mod_id)
+            if isinstance(before, dict) and before.get("download") != merged[mod_id].get("download") and "dmbEntry" not in merged[mod_id] and "pinned" not in merged[mod_id]:
+                result[mod_id] = before
+            continue
+        if state == "ok":
             continue
         before = previous.get(mod_id)
         action = "left out of the list"
@@ -267,10 +273,15 @@ def selftest():
     assert result["g-new-keep"]["download"] == "https://x/olddl.zip"
     got = {r["mod"]: (r["state"], r["action"]) for r in report}
     assert got == {"b-new": ("needs-newer", "left out of the list"), "d-old": ("too-old", "left out of the list"), "g-new-keep": ("needs-newer", "kept the previous entry")}, got
+    unreadable = {"i-down": {"mod": "https://x/unreachable.json", "download": "https://x/newdl.zip", "downloadSize": 1}}
+    kept, _ = apply_gate(unreadable, {"i-down": entry("ok", "olddl")}, engine, fetch)
+    assert kept["i-down"]["download"] == "https://x/olddl.zip", kept
+    kept2, _ = apply_gate(unreadable, {}, engine, fetch)
+    assert kept2["i-down"]["download"] == "https://x/newdl.zip", kept2
     news = newer_vcmi_releases(engine, fetch)
     assert [n["version"] for n in news] == ["1.8.0"], news
     assert newer_vcmi_releases(engine, lambda u: None) == []
-    print("selftest: 10 checks pass")
+    print("selftest: 12 checks pass")
     return 0
 
 

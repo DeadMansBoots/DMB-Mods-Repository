@@ -18,6 +18,10 @@ permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: build-catalog
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,15 +36,6 @@ jobs:
         if: github.event_name != 'pull_request'
         run: python3 tools/build_catalog.py --gate-report "$RUNNER_TEMP/gate-report.json"
 
-      - name: Open an issue for each mod the engine gate held back
-        if: github.event_name != 'pull_request'
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          if [ -f "$RUNNER_TEMP/gate-report.json" ]; then
-            python3 tools/open_gate_issues.py "$RUNNER_TEMP/gate-report.json"
-          fi
-
       - name: Commit the list if it changed
         if: github.event_name != 'pull_request'
         run: |
@@ -53,3 +48,12 @@ jobs:
           git add dmb-1.7.json
           git commit -m "The catalog, merged again from VCMI's index and DMB's entries"
           git push
+      - name: Open an issue for each mod the engine gate held back (after the list is committed; a failure here changes nothing)
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f "$RUNNER_TEMP/gate-report.json" ]; then
+            python3 tools/open_gate_issues.py "$RUNNER_TEMP/gate-report.json"
+          fi
