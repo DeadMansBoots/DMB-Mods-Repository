@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.3",
-	"changeLog": "New in this version: the launcher no longer replaces a working mod with a version this game cannot run (it keeps the one you have and says why), Tides of War is offered at the version that works, and joining a game whose mods differ from yours now says which mod instead of closing the game.",
+	"version": "DMB 0.1.0-beta.19.4",
+	"changeLog": "New in this version: brown leather around the menus again, loading text clear of the gold ornament above the loading bar, chat lines in each player's colour, \"Install Anyway\" for a mod version this game cannot run yet, watching a game without a seat, and gameplay data recording to a folder on your PC. Everyone who plays together must update to this version.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.3/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.3"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.4/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.4"
 	},
-	"windowsSha256": "a7af34b478a6784a0a86017b6b71fe716af4e516c43c14d20f145721f181c58b",
+	"windowsSha256": "762382d28aa16f3e1452e4df4d8ebce66682efb3f823dd5691c96d8da3415a77",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -26,7 +26,8 @@
 		"DMB 0.1.0-beta.18",
 		"DMB 0.1.0-beta.19",
 		"DMB 0.1.0-beta.19.1",
-		"DMB 0.1.0-beta.19.2"
+		"DMB 0.1.0-beta.19.2",
+		"DMB 0.1.0-beta.19.3"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
