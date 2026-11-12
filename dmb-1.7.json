@@ -45,8 +45,7 @@
 		},
 		"an-expansion": {
 			"mod": "https://github.com/vcmi-mods/an-expansion/releases/download/1.7/mod.json",
-			"download": "https://github.com/vcmi-mods/an-expansion/releases/download/1.7/an-expansion-vcmi-1.7.zip",
-			"descriptionURL": "https://raw.githubusercontent.com/vcmi-mods/an-expansion/1.7/description.md"
+			"download": "https://github.com/vcmi-mods/an-expansion/releases/download/1.7/an-expansion-vcmi-1.7.zip"
 		},
 		"andruids-expansion": {
 			"mod": "https://github.com/vcmi-mods/andruids-expansion/releases/download/1.7/mod.json",
@@ -888,8 +887,7 @@
 		},
 		"the-lost-tales": {
 			"mod": "https://github.com/vcmi-mods/the-lost-tales/releases/download/1.7/mod.json",
-			"download": "https://github.com/vcmi-mods/the-lost-tales/releases/download/1.7/the-lost-tales-vcmi-1.7.zip",
-			"descriptionURL": "https://raw.githubusercontent.com/vcmi-mods/the-lost-tales/1.7/description.md"
+			"download": "https://github.com/vcmi-mods/the-lost-tales/releases/download/1.7/the-lost-tales-vcmi-1.7.zip"
 		},
 		"third-upgrades": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/third-upgrades/vcmi-1.7/third-upgrades/mod.json",
