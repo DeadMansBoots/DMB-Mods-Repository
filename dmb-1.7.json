@@ -23,6 +23,12 @@
 			"mod": "https://github.com/vcmi-mods/abyss-town/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/abyss-town/releases/download/1.7/abyss-town-vcmi-1.7.zip"
 		},
+		"addition-to-wog": {
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/addition-to-wog/vcmi-1.7/mod.json",
+			"download": "https://github.com/vcmi-mods/addition-to-wog/archive/refs/heads/vcmi-1.7.zip",
+			"downloadSize": 0.292,
+			"githubStars": 0
+		},
 		"adventure-spells-pack": {
 			"mod": "https://github.com/vcmi-mods/adventure-spells-pack/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/adventure-spells-pack/releases/download/1.7/adventure-spells-pack-vcmi-1.7.zip"
@@ -441,6 +447,18 @@
 			"downloadSize": 249.239,
 			"githubStars": 6
 		},
+		"heroes3-new-design-portraits": {
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/heroes3-new-design-portraits/main/mod.json",
+			"download": "https://github.com/vcmi-mods/heroes3-new-design-portraits/archive/refs/heads/main.zip",
+			"downloadSize": 66.16,
+			"githubStars": 0,
+			"screenshots": [
+				"https://raw.githubusercontent.com/vcmi-mods/heroes3-new-design-portraits/main/screenshots/screen1-castle-large.png",
+				"https://raw.githubusercontent.com/vcmi-mods/heroes3-new-design-portraits/main/screenshots/screen2-fortress-small.png",
+				"https://raw.githubusercontent.com/vcmi-mods/heroes3-new-design-portraits/main/screenshots/screen3-cove-large.png",
+				"https://raw.githubusercontent.com/vcmi-mods/heroes3-new-design-portraits/main/screenshots/screen4-bulwark-large.png"
+			]
+		},
 		"hi-rez-menu": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/hi-rez-menu/vcmi-1.7/new-menu/mod.json",
 			"download": "https://github.com/vcmi-mods/hi-rez-menu/archive/refs/heads/vcmi-1.7.zip",
@@ -564,7 +582,7 @@
 				"https://raw.githubusercontent.com/vcmi-mods/mighty-heroes-iii/vcmi-1.7/screenshots/03.png"
 			],
 			"downloadSize": 19.214,
-			"githubStars": 1
+			"githubStars": 2
 		},
 		"mmai": {
 			"mod": "https://github.com/vcmi-mods/mmai/releases/download/vcmi-1.7-latest/mod.json",
