@@ -573,13 +573,13 @@
 				"https://raw.githubusercontent.com/vcmi-mods/mmai/vcmi-1.7-latest/screenshots/screenshot-01.png"
 			],
 			"downloadSize": 37.829,
-			"githubStars": 19
+			"githubStars": 20
 		},
 		"modder-tools-pack": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/modder-tools-pack/main/mod.json",
 			"download": "https://github.com/vcmi-mods/modder-tools-pack/archive/refs/heads/main.zip",
 			"downloadSize": 86.749,
-			"githubStars": 6
+			"githubStars": 7
 		},
 		"moon-artifacts": {
 			"mod": "https://raw.githubusercontent.com/vcmi-mods/moon-artifacts/vcmi-1.7/moon-artifacts/mod.json",
