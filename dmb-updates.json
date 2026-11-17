@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.6",
-	"changeLog": "New in this version: the host no longer freezes when a player drops and comes back, drops during a battle, or two players drop at once; a player who drops during a battle is let back in when it ends; folded turn bars show the players you pick; a defeated host stays to watch; with OmniMapGen 0.3.34 the random map lobby shows a picture of the map your settings will make. Everyone who plays together should update.",
+	"version": "DMB 0.1.0-beta.19.7",
+	"changeLog": "New in this version: no more crash when you leave a game for the main menu while another player's hero is moving, and pressing Host or Join afterwards no longer waits forever; no more crash for a player who comes back after a dropped connection, at the first battle after coming back. Everyone who plays together should update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.6/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.6"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.7/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.7"
 	},
-	"windowsSha256": "d9122190734ba4301cb6d9bbe4fd727aa5896289560ca3415fb4abde26c81891",
+	"windowsSha256": "99067f9544a70d71bc12955bf9118ae933e3b43d161f891a145e17b8276267ac",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -28,7 +28,8 @@
 		"DMB 0.1.0-beta.19.1",
 		"DMB 0.1.0-beta.19.2",
 		"DMB 0.1.0-beta.19.3",
-		"DMB 0.1.0-beta.19.4"
+		"DMB 0.1.0-beta.19.4",
+		"DMB 0.1.0-beta.19.6"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
