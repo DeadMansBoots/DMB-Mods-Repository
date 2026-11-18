@@ -732,12 +732,22 @@
 			"downloadSize": 6.407,
 			"githubStars": 1
 		},
+		"omniai": {
+			"mod": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.2/mod.json",
+			"download": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.2/omniai.zip",
+			"downloadSize": 0.42,
+			"codeSha256": [
+				"787b170403a2cb484a7121c5c6c18a493aadb7230c4786a7b97ed08398c4501b"
+			],
+			"dmbEntry": true
+		},
 		"omnimapgen": {
-			"mod": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.35/mod.json",
-			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.35/omnimapgen.zip",
-			"downloadSize": 48.62,
+			"mod": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.36/mod.json",
+			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.36/omnimapgen.zip",
+			"downloadSize": 48.63,
 			"githubStars": 1000,
 			"codeSha256": [
+				"bbc1e611dcc995d6291c257acd37be48cbfd61221f890f72005bb1dfe9272e82",
 				"8a30386b018bb98e9b79d7b78d7f2bc7a2c4fec3a6831fa77a7efb0bb27af520",
 				"25a20fccb35abde7b15541d01cadb3c16516c16fc8d80b85518deaf881f6356b",
 				"1cac6e888f7aed5b26e22c58e1053219cf21b64f0b186e7ba795edce2af1eb2f",
