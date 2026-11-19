@@ -713,6 +713,12 @@
 			"mod": "https://github.com/vcmi-mods/newtown-terrains/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/newtown-terrains/releases/download/1.7/newtown-terrains-vcmi-1.7.zip"
 		},
+		"no-more-upg-prefixes_homm3": {
+			"mod": "https://raw.githubusercontent.com/vcmi-mods/no-more-upg-prefixes_HoMM3/vcmi-1.7/mod.json",
+			"download": "https://github.com/vcmi-mods/no-more-upg-prefixes_HoMM3/archive/refs/heads/vcmi-1.7.zip",
+			"downloadSize": 0.01,
+			"githubStars": 0
+		},
 		"norwegian-translation": {
 			"mod": "https://github.com/vcmi-mods/norwegian-translation/releases/download/1.7/mod.json",
 			"download": "https://github.com/vcmi-mods/norwegian-translation/releases/download/1.7/norwegian-translation-vcmi-1.7.zip"
