@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.8",
-	"changeLog": "New in this version: the Water layout choice is a list, with the picture and description of the layout you highlight beside it; the Scenario Description in the random map lobby shows the chosen template's own description; a click on the small map picture shows it full screen, with the underground one arrow away; a failed update says why; the AI Settings window lists a computer player from a mod that cannot load, in grey, with the reason, and watching a game no longer fills the log with errors. The map pictures with terrain colours and the random water amount need OmniMapGen 0.3.36, offered in the launcher's mod list. Everyone who plays together should update.",
+	"version": "DMB 0.1.0-beta.19.9",
+	"changeLog": "New in this version: the gold buttons DMB adds, in the game and the launcher, use the lobby BEGIN button's own gold with its fine grain; each computer seat is named after the computer player that plays it; the seat row's button reads \"Starting Resources\" and fits its box. With OmniMapGen 0.3.37: almost every slider has a Template position and Reset puts them back on it; a control that does nothing on the layout you chose is greyed, and its right-click text says what it will do once built; \"Subterranean Like Overworld\" makes the underground a second map like the overworld; Special buildings from the original maps are Template, Random, Off or On, with a slider for how many. Everyone who plays together should update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.8/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.8"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.9/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.9"
 	},
-	"windowsSha256": "79b10a4381d52027e411c58561d21982c6ed4f00156249ff16a60c69282d3a1c",
+	"windowsSha256": "0b2a5f531761b95c062870d6cd0672e9c0280eab95fc1e886be2a3280aa5b979",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -30,7 +30,8 @@
 		"DMB 0.1.0-beta.19.3",
 		"DMB 0.1.0-beta.19.4",
 		"DMB 0.1.0-beta.19.6",
-		"DMB 0.1.0-beta.19.7"
+		"DMB 0.1.0-beta.19.7",
+		"DMB 0.1.0-beta.19.8"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
