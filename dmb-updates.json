@@ -1,12 +1,12 @@
 {
 	"updateType": "minor",
-	"version": "DMB 0.1.0-beta.19.9",
-	"changeLog": "New in this version: the gold buttons DMB adds, in the game and the launcher, use the lobby BEGIN button's own gold with its fine grain; each computer seat is named after the computer player that plays it; the seat row's button reads \"Starting Resources\" and fits its box. With OmniMapGen 0.3.37: almost every slider has a Template position and Reset puts them back on it; a control that does nothing on the layout you chose is greyed, and its right-click text says what it will do once built; \"Subterranean Like Overworld\" makes the underground a second map like the overworld; Special buildings from the original maps are Template, Random, Off or On, with a slider for how many. Everyone who plays together should update.",
+	"version": "DMB 0.1.0-beta.19.10",
+	"changeLog": "New in this version: every seat in the lobby has a Seat Settings window with any colour and a team; a Bonuses page for each seat's starting bonuses, with war machines and extra seconds on every turn; with a turn timer, each player's time left shows at the right end of their own turn bar in their colour, the bars always stand in one column, and the game's own timer box comes back only for a human who has no bar on your screen; objects on the adventure map are drawn in the right order; the hero picker's Random works while another seat holds the faction's first hero. With OmniMapGen 0.3.38: every slider with a Template notch starts in the middle, Classic maps follow the original scenarios more closely, roads bend more and rivers never run along a road, and the lobby's template pictures are redrawn. Everyone who plays together should update.",
 	"downloadLinks": {
-		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.9/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
-		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.9"
+		"windows": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/download/v0.1.0-beta.19.10/Dead-Mans-Boots-Straker-Beta-Setup-x64.exe",
+		"other": "https://github.com/DeadMansBoots/Dead-Mans-Boots/releases/tag/v0.1.0-beta.19.10"
 	},
-	"windowsSha256": "0b2a5f531761b95c062870d6cd0672e9c0280eab95fc1e886be2a3280aa5b979",
+	"windowsSha256": "80bcd99e14f4946aafc63058fad236ba5921f00abb86c95b0e4e92c2cbd281f6",
 	"history": [
 		"DMB 0.1.0",
 		"DMB 0.1.0-beta.4",
@@ -31,7 +31,8 @@
 		"DMB 0.1.0-beta.19.4",
 		"DMB 0.1.0-beta.19.6",
 		"DMB 0.1.0-beta.19.7",
-		"DMB 0.1.0-beta.19.8"
+		"DMB 0.1.0-beta.19.8",
+		"DMB 0.1.0-beta.19.9"
 	],
 	"reportEndpoint": "https://o4512240476225536.ingest.us.sentry.io/api/4512240501129216/minidump/?sentry_key=f0b2b9b8475adaade987ca3bb4635093"
 }
