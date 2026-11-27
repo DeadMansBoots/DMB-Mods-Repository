@@ -748,11 +748,12 @@
 			"dmbEntry": true
 		},
 		"omnimapgen": {
-			"mod": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.37/mod.json",
-			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.37/omnimapgen.zip",
-			"downloadSize": 47.25,
+			"mod": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.38/mod.json",
+			"download": "https://github.com/Renegade1993/OmniMapGen/releases/download/v0.3.38/omnimapgen.zip",
+			"downloadSize": 47.2,
 			"githubStars": 1000,
 			"codeSha256": [
+				"04ee3fea64692fb6638a3a932546a28d78ee232ac00d46dc8041ffd9a7e345cf",
 				"9c470dce28af60c7c0c8d943bdee977661d1f4fa382403a2d2c9e6efa97430dc",
 				"bbc1e611dcc995d6291c257acd37be48cbfd61221f890f72005bb1dfe9272e82",
 				"8a30386b018bb98e9b79d7b78d7f2bc7a2c4fec3a6831fa77a7efb0bb27af520",
