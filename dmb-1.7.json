@@ -739,10 +739,11 @@
 			"githubStars": 1
 		},
 		"omniai": {
-			"mod": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.2/mod.json",
-			"download": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.2/omniai.zip",
+			"mod": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.3/mod.json",
+			"download": "https://github.com/Renegade1993/OmniAI/releases/download/v0.2.3/omniai.zip",
 			"downloadSize": 0.42,
 			"codeSha256": [
+				"fa2af9f3060cc8a1209bed9af2f65165adb259e67366a0e3f4305535a4f04b5e",
 				"787b170403a2cb484a7121c5c6c18a493aadb7230c4786a7b97ed08398c4501b"
 			],
 			"dmbEntry": true
